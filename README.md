@@ -35,3 +35,12 @@ Luego ya dentro de este definiriamos las direcciones IP y las Mask que vamos a u
 ## Hosts
 ![](Redes/hosts.jpg)
 <p>Una vez realizada toda la configuracion anterior se procede a configurar cada host, para ellos lo que se hace es configurar cada dirección ip que va a corresponder a nuestros respectivos host, le indicaremos la mascara de red, que fue la misma que configuramos en el Router, y seguido a esto le indicaremos los gateway que son las direcciones ip que le asignamos a cada subinterfaz de nuestros routers, ademas de ello indicaremos el broadcast los cuales estan establecidos por medio de la tabla VLSM</p>
+
+## Captura de paquetes enviados
+
+![](Redes/a.jpg)
+![](Redes/b.jpg)
+![](Redes/c.jpg)
+![](Redes/d.jpg)
+
+<p>En esta se pueden ver los envios de paquetes que se han realizado entre diferentes virtuales de linux</p>
